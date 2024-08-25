@@ -1,4 +1,6 @@
 import About from '@/components/About';
+import Blog from '@/components/Blog';
+import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
 import MobileNav from '@/components/MobileNav';
 import Nav from '@/components/Nav';
@@ -25,6 +27,8 @@ const HomePage = () => {
           <Skills />
           <Projects />
           <Testimonial />
+          <Blog />
+          <Footer />
         </div>
       </div>
     </div>
